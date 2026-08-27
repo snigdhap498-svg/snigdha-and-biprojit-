@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Snigdha ♡ Biprojit</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #4a2632;
+  background: linear-gradient(135deg, #fff5f7, #f9e1e8);
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 65px;
+  line-height: 1;
+  color: #672c40;
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: #c75b79;
+}
+
+.small {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #bd637b;
+}
+
+.subtitle {
+  font-family: Georgia, serif;
+  font-size: 21px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 25px;
+  background: #672c40;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+section {
+  max-width: 950px;
+  margin: auto;
+  padding: 80px 25px;
+}
+
+.card {
+  background: rgba(255,255,255,0.65);
+  border-radius: 30px;
+  padding: 35px;
+  box-shadow: 0 15px 40px rgba(90,40,60,0.12);
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 45px;
+  color: #672c40;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.timeline {
+  border-left: 2px solid #d89aaa;
+  padding-left: 25px;
+  margin-top: 30px;
+}
+
+.timeline h3 {
+  font-family: Georgia, serif;
+  color: #672c40;
+}
+
+.counter {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.counter div {
+  flex: 1;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.counter b {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 35px;
+  color: #c75b79;
+}
+
+.counter span {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 22px;
+}
+
+.gallery img:first-child {
+  grid-column: span 2;
+}
+
+.note {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+.note strong {
+  display: block;
+  color: #672c40;
+  font-size: 35px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #8c6872;
+}
+
+@media(max-width:600px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .counter {
+    flex-wrap: wrap;
+  }
+
+  .counter div {
+    min-width: 45%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img:first-child {
+    grid-column: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div>
+    <div class="small">Our little corner of the internet</div>
+
+    <h1>
+      Snigdha <span>♡</span><br>
+      Biprojit
+    </h1>
+
+    <p class="subtitle">
+      A little story that began on<br>
+      <b>1 November 2024</b> ♡
+    </p>
+
+    <a class="button" href="#story">
+      Open our story ♡
+    </a>
+  </div>
+</section>
+
+
+<section id="story">
+  <div class="card">
+
+    <div class="small">Since 1 November 2024</div>
+
+    <h2>Our Story</h2>
+
+    <p>
+      Some memories are too precious to stay only
+      in our camera roll. So here's a little corner
+      of the internet that belongs to us. 🫶🏻
+    </p>
+
+    <div class="timeline">
+
+      <div>
+        <h3>1 November 2024 — The Beginning</h3>
+        <p>
+          The day our little story officially began.
+        </p>
+      </div>
+
+      <div>
+        <h3>Then came the memories ♡</h3>
+        <p>
+          The smiles, silly moments, photographs,
+          conversations and all the ordinary days
+          that slowly became special.
+        </p>
+      </div>
+
+      <div>
+        <h3>Still choosing us</h3>
+        <p>
+          Whatever the next chapter looks like,
+          this story will always have a special place
+          in our hearts.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="counter">
+
+      <div>
+        <b id="days">0</b>
+        <span>Days Together</span>
+      </div>
+
+      <div>
+        <b id="months">0</b>
+        <span>Months Together</span>
+      </div>
+
+      <div>
+        <b id="years">0</b>
+        <span>Years Together</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="memories">
+
+  <div class="small">Little moments</div>
+
+  <h2>Our Memories 📸</h2>
+
+  <p>
+    Five little pieces of our story.
+  </p>
+
+  <div class="gallery">
+
+    <img src="images/photo1.jpg">
+    <img src="images/photo2.jpg">
+    <img src="images/photo3.jpg">
+    <img src="images/photo4.jpg">
+    <img src="images/photo5.jpg">
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="card note">
+
+    <div class="small">A little note</div>
+
+    <p>
+      NEVER GIVE UP ON US 💪🏻
+    </p>
+
+    <strong>
+      LOVE YOU MORE<br>
+      AND ALWAYS 🫶🏻
+    </strong>
+
+    <p>
+      — Snigdha ♡ Biprojit
+    </p>
+
+  </div>
+
+</section>
+
+
+<footer>
+  Made with ♡ for Snigdha & Biprojit
+  <br>
+  1 November 2024 → forever
+</footer>
+
+
+<script>
+
+const startDate = new Date("2024-11-01T00:00:00");
+
+function updateCounter() {
+
+  const now = new Date();
+
+  const difference = now - startDate;
+
+  const days = Math.floor(
+    difference / (1000 * 60 * 60 * 24)
+  );
+
+  const months =
+    (now.getFullYear() - startDate.getFullYear()) * 12 +
+    (now.getMonth() - startDate.getMonth());
+
+  const years =
+    Math.floor(months / 12);
+
+  document.getElementById("days").innerText = days;
+
+  document.getElementById("months").innerText = months;
+
+  document.getElementById("years").innerText = years;
+}
+
+updateCounter();
+
+</script>
+
+</body>
+</html>
